@@ -19,5 +19,5 @@ int number = InputInt("Введите число N, до которого выд
 
 for (int i = 1; i <= number; i++)
 {
-    Console.Write($"{i * i * i}, ");
+    Console.Write($"{i * i * i}, ");                    //Выводим значение i в кубе
 }
